@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px "Times New Roman", times, serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+}
+
+nav img {
+  height: 500px;
+  display: block;
+}
