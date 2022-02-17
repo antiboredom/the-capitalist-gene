@@ -54,6 +54,7 @@ h1 {
 
 img {
   width: 100%;
+  display: block;
 }
 
 nav {
@@ -61,7 +62,7 @@ nav {
   top: 0px;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
-  padding: 50px 0px;
+  padding: 10px 0px;
 }
 
 nav a {
@@ -80,6 +81,57 @@ section {
 
 section:nth-child(even) {
   border-left: 1px solid #ccc;
+}
+
+#visual-instructions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+#visual-instructions img {
+  height: 200px;
+  width: auto;
+}
+
+
+/* ol { */
+/*   list-style: none; */
+/*   counter-reset: counter; */
+/* } */
+/*  */
+/* ol li { */
+/*   counter-increment: counter; */
+/*   position: relative; */
+/* } */
+/*  */
+/* ol li::before { */
+/*   content: counter(counter); */
+/*   border: 1px solid #000; */
+/*   font-size: 1.5rem; */
+/*   width: 2rem; */
+/*   text-align: center; */
+/*   position: absolute; */
+/*   left: -40px; */
+/*   top: 0; */
+/* } */
+
+li {
+  margin-bottom: 10px;
+}
+
+p.small {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+footer {
+  font-size: 0.8em;
+  margin: 50px;
 }
 
 /* section h2 { */
