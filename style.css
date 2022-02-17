@@ -106,20 +106,24 @@ section:nth-child(even) {
   border-left: 1px solid #ccc;
 }
 
-#visual-instructions {
+.image-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-gap: 50px; */
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
 }
 
-#visual-instructions img {
+video {
+  width: 100%;
+}
+
+.image-grid img {
   /* height: 200px; */
   /* width: auto; */
-  padding: 0px 40px;
+  padding: 40px;
 }
 
 /* ol { */
@@ -183,18 +187,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
   }
-  #visual-instructions img {
+  .image-grid img {
     padding: 0px 10px;
   }
-footer {
-  font-size: 0.8em;
-  margin: 10px;
-
-}
-h1 {
-  font-size: 30px;
-}
-h2 {
-  font-size: 20px;
-}
+  footer {
+    font-size: 0.8em;
+    margin: 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
 }
