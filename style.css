@@ -20,6 +20,14 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin: 20px 0;
+}
+
+a {
+  color: #000;
+}
+
 .container {
   max-width: 1400px;
   margin: auto;
@@ -76,7 +84,8 @@ main {
 
 section {
   /* min-height: 100vh; */
-  padding: 50px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
 }
 
 section:nth-child(even) {
@@ -131,7 +140,7 @@ p.small {
 
 footer {
   font-size: 0.8em;
-  margin: 50px;
+  margin: 20px;
 }
 
 /* section h2 { */
@@ -152,8 +161,19 @@ footer {
     border-bottom: 1px solid #ccc;
     padding: 10px;
   }
+  nav {
+    padding: 10px;
+    position: static;
+  }
   main {
     display: grid;
     grid-template-columns: 1fr;
   }
+  #visual-instructions img {
+    padding: 0px 10px;
+  }
+footer {
+  font-size: 0.8em;
+  margin: 10px;
+}
 }
