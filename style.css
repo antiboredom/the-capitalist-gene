@@ -94,10 +94,10 @@ section:nth-child(even) {
 }
 
 #visual-instructions img {
-  height: 200px;
-  width: auto;
+  /* height: 200px; */
+  /* width: auto; */
+  padding: 0px 40px;
 }
-
 
 /* ol { */
 /*   list-style: none; */
@@ -144,5 +144,16 @@ footer {
   }
   100% {
     transform: rotate(2deg);
+  }
+}
+
+@media (max-width: 750px) {
+  section {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
