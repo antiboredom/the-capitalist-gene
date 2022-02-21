@@ -36,6 +36,8 @@ a {
 .container {
   max-width: 1400px;
   margin: auto;
+  border: 1px solid var(--border);
+  border-top: none;
 }
 
 .top {
