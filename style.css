@@ -1,5 +1,6 @@
 :root {
   --pad: 25px;
+  --border: #999;
 }
 
 * {
@@ -87,7 +88,7 @@ nav {
   /* position: sticky; */
   top: 0px;
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border);
   padding: var(--pad);
 }
 
@@ -103,11 +104,11 @@ main {
 section {
   /* min-height: 100vh; */
   padding: var(--pad);
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--border);
 }
 
 section:nth-child(even) {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid var(--border);
 }
 
 .image-grid {
@@ -196,7 +197,7 @@ footer {
 
 @media (max-width: 750px) {
   section {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--border);
     padding: 10px;
   }
   nav {
